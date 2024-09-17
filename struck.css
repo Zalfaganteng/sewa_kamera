@@ -1,0 +1,50 @@
+body {
+    background-image: url('header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5); /* Nilai opasitas 0.8 membuatnya menjadi transparan */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.struck-header {
+    background-color: rgba(0, 123, 255, 0.7); /* Nilai opasitas 0.8 membuatnya menjadi transparan */
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+}
+
+.message {
+    margin-bottom: 20px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.data {
+    color: #000;
+    margin-bottom: 20px;
+}
+.table-bordered {
+    border: 1px solid rgba(222, 226, 230, 0.5); /* Nilai opasitas 0.5 membuatnya menjadi transparan */
+    background-color: rgba(255, 255, 255, 0.5); /* Nilai opasitas 0.5 membuatnya menjadi transparan */
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid rgba(222, 226, 230, 0.5);
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.5); /* Nilai opasitas 0.5 membuatnya menjadi transparan */
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
